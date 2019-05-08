@@ -72,6 +72,7 @@ namespace MilkyWay
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            Dummydata.Initialize(app);
         }
     }
 }

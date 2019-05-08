@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MilkyWay.Data.Migrations
 {
-    public partial class CreateIdentitySchema : Migration
+    public partial class Benz : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -45,6 +45,18 @@ namespace MilkyWay.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Carbrands",
+                columns: table => new
+                {
+                    Name = table.Column<string>(nullable: false),
+                    BrandId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Carbrands", x => x.Name);
                 });
 
             migrationBuilder.CreateTable(
@@ -153,6 +165,29 @@ namespace MilkyWay.Data.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Cars",
+                columns: table => new
+                {
+                    CarId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Type = table.Column<string>(nullable: true),
+                    Model = table.Column<string>(nullable: true),
+                    Grade = table.Column<string>(nullable: true),
+                    Price = table.Column<decimal>(nullable: false),
+                    Name = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cars", x => x.CarId);
+                    table.ForeignKey(
+                        name: "FK_Cars_Carbrands_Name",
+                        column: x => x.Name,
+                        principalTable: "Carbrands",
+                        principalColumn: "Name",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -191,6 +226,11 @@ namespace MilkyWay.Data.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Cars_Name",
+                table: "Cars",
+                column: "Name");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -211,10 +251,16 @@ namespace MilkyWay.Data.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Cars");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Carbrands");
         }
     }
 }

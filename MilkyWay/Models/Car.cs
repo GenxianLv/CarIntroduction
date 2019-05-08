@@ -10,7 +10,8 @@ namespace MilkyWay.Models
         public int CarId { get; set; }
         public string Type { get; set; }
         public string Model { get; set; }
-        public int Price { get; set; }
+        public string Grade { get; set; }
+        public decimal Price { get; set; }
 
         public string Name { get; set;}
         public Carbrand Carbrand { get; set; }
