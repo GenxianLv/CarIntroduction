@@ -54,9 +54,43 @@ namespace MilkyWay.Data
                 Grade="S",
                 Name=context.Carbrands.Find("Mercedes-Benz").Name,
                 Price= 227.88m
-
-
             },
+                        new Car() {
+                Model="Maybach",
+                Type="limousine",
+                Grade="S",
+                Name=context.Carbrands.Find("Mercedes-Benz").Name,
+                Price= 138.08m
+            },
+            new Car() {
+                Model="AMG G63",
+                Type="SUV",
+                Grade="G",
+                Name=context.Carbrands.Find("Mercedes-Benz").Name,
+                Price= 215.88m
+            },
+            new Car() {
+                Model="AMG GLS63 4MATIC+",
+                Type="SUV",
+                Grade="G",
+                Name=context.Carbrands.Find("Mercedes-Benz").Name,
+                Price= 179.98m
+            },
+            new Car() {
+                Model="V-class utility vehicle",
+                Type="MPV",
+                Grade="V",
+                Name=context.Carbrands.Find("Mercedes-Benz").Name,
+                Price= 47.18m
+            },
+            new Car() {
+                Model="AMG C63",
+                Type="COUPE",
+                Grade="C",
+                Name=context.Carbrands.Find("Mercedes-Benz").Name,
+                Price= 95.28m
+            },
+
 
         };
 

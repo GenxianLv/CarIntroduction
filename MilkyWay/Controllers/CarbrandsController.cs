@@ -54,7 +54,7 @@ namespace MilkyWay.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,BrandId")] Carbrand carbrand)
+        public async Task<IActionResult> Create([Bind("Name")] Carbrand carbrand)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace MilkyWay.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Name,BrandId")] Carbrand carbrand)
+        public async Task<IActionResult> Edit(string id, [Bind("Name")] Carbrand carbrand)
         {
             if (id != carbrand.Name)
             {

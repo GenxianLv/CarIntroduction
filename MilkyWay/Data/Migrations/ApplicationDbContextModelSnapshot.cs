@@ -212,8 +212,6 @@ namespace MilkyWay.Data.Migrations
                     b.Property<string>("Name")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("BrandId");
-
                     b.HasKey("Name");
 
                     b.ToTable("Carbrands");

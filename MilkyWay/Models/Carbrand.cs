@@ -10,7 +10,7 @@ namespace MilkyWay.Models
     {
         [Key]
         public string Name { get; set; }
-        public int BrandId { get; set; }
+
 
         public List<Car> Cars { get; set; }
     }

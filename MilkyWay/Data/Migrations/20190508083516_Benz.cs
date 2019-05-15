@@ -51,8 +51,7 @@ namespace MilkyWay.Data.Migrations
                 name: "Carbrands",
                 columns: table => new
                 {
-                    Name = table.Column<string>(nullable: false),
-                    BrandId = table.Column<int>(nullable: false)
+                    Name = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {

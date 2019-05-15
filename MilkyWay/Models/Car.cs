@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -11,6 +12,7 @@ namespace MilkyWay.Models
         public string Type { get; set; }
         public string Model { get; set; }
         public string Grade { get; set; }
+        [Display(Name="Price/M")]
         public decimal Price { get; set; }
 
         public string Name { get; set;}
