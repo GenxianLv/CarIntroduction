@@ -1,0 +1,30 @@
+===========================================================
+This First Week
+Title:Upload Data
+User: AS an Developer
+Goal:AS an Developer£¬I need to realize the creation of car data.
+Why:
+1) I need to create a class file.
+2) I need to define the database.
+3) I need to implement the front-end pages.
+4) I need to check if something is wrong.
+===========================================================
+This Second Week
+Title:Create,delete,Change,Check
+User: AS an Administrator
+Goal:AS an Administrator, I need to check and manage the process. 
+Why:
+===========================================================
+This Third Week
+Title:Create hyperlinks and images
+User: As a User
+Goal:As a User, I need a hyperlink to view the car directly.
+Why:
+===========================================================
+The Last Week
+Title:Create a search key
+User: As a User
+Goal:As a user, I need to have a search key to search directly for the type of car I want.
+Why:
+
+===========================================================
