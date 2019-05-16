@@ -1,0 +1,22 @@
+Sprit#1
+AS an Developer£¬I need to realize the creation of car data.
+1) I need to create a class file.
+2) I need to define the database.
+3) I need to implement the front-end pages.
+4) I need to check if something is wrong.
+======================================================================
+Sprit#2
+AS an Administrator, I need to check and manage the process. 
+
+
+
+===================================================================
+Sprit#3
+As a User, I need a hyperlink to view the car directly.
+
+
+
+
+==============================================================
+Sprit#4
+As a user, I need to have a search key to search directly for the type of car I want.
