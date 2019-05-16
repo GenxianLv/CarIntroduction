@@ -1,0 +1,20 @@
+======================================================================================================================================
+Meeting record (The First Week) :
+a):In this week's homework, we completed the data uploading.  
+b):This week's project manager is GenxianLv, a product manager is JunJuePeng.
+
+Conference name: Project definition and upload data
+
+Content of the meeting:
+A) : on the first day and the second day, our group discussed the first function to be done and the division of labor, and assigned team members to think about which aspects to introduce the car.
+
+B) : on the third day of the meeting, we put forward our ideas according to the tasks of the two days and combined them.We decided to introduce cars from the price, name, type and brand.
+
+C) : on the fourth day, we started to try, but we encountered some technical problems on the way, such as page display error, inability to display data in the page and so on.We combined these problems, discussed together, consulted books, and consulted teachers. With our joint efforts, our team broke through the problems in these two days.
+
+D) : on the fifth day, we successfully uploaded the data and realized the first function.
+
+E) : on the sixth day, after the basic completion of the first function, our team checked and optimized it, and will continue to improve the first function.
+
+F) : in the meeting summary on the seventh day, which is the week, we discussed the problems encountered in the implementation of the first function and the difficulties that may be encountered in the future, from which we learned and summarized our experience.We discussed the functions to be done next week, defined the division of labor among team members and determined the project manager and product manager for the next week.
+==================================================================================================================================================
