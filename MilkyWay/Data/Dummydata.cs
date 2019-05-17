@@ -40,6 +40,81 @@ namespace MilkyWay.Data
             new Carbrand() {
                 Name="Mercedes-Benz"
             },
+            new Carbrand() {
+                Name="Acura"
+            },
+            new Carbrand() {
+                Name="Alfa romeo"
+            },
+            new Carbrand() {
+                Name="Aston Martin"
+            },
+            new Carbrand() {
+                Name="Audi"
+            },
+            new Carbrand() {
+                Name="Bentley"
+            },
+            new Carbrand() {
+                Name="BMW"
+            },
+            new Carbrand() {
+                Name="Bugatti"
+            },
+            new Carbrand() {
+                Name="Buick"
+            },
+            new Carbrand() {
+                Name="Cadillac"
+            },
+            new Carbrand() {
+                Name="Ferrari"
+            },
+            new Carbrand() {
+                Name="Ford"
+            },
+            new Carbrand() {
+                Name="George Patton"
+            },
+            new Carbrand() {
+                Name="Honda"
+            },
+            new Carbrand() {
+                Name="Hummer"
+            },
+            new Carbrand() {
+                Name="Jaguar"
+            },
+            new Carbrand() {
+                Name="Jeep"
+            },
+            new Carbrand() {
+                Name="Lamborghini"
+            },
+            new Carbrand() {
+                Name="Land rover"
+            },
+            new Carbrand() {
+                Name="Maserati"
+            },
+            new Carbrand() {
+                Name="McLaren"
+            },
+            new Carbrand() {
+                Name="Nissan"
+            },
+            new Carbrand() {
+                Name="Pagani"
+            },
+            new Carbrand() {
+                Name="Porsche"
+            },
+            new Carbrand() {
+                Name="Rolls-Royce"
+            },
+            new Carbrand() {
+                Name="Toyota"
+            },
         };
 
             return Carbrands;
