@@ -1,0 +1,11 @@
+Sprit#2
+
+Name of the team:MilkyWay
+
+Name of the GitHub project:CarIntroduction
+
+GitHub username of the GitHub repository:GenxianLv/CarIntroduction
+
+Name of the Product Owner:JunjuePeng
+
+Name of the Scrum Master:ShuyuLi
