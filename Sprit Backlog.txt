@@ -7,6 +7,13 @@ AS an Developer£¬I need to realize the creation of car data.
 ======================================================================
 Sprit#2
 AS an Administrator, I need to check and manage the process. 
+1) I need to update the data every week.
+
+2) I need to check the completion and bugs of the whole project every week.
+
+3) I need to set up that only registered people can modify or add favorite models.
+
+4) I need to create an account to prevent malicious modification of the data.
 
 
 
