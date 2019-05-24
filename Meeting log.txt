@@ -19,4 +19,20 @@ E) : on the sixth day, after the basic completion of the first function, our tea
 F) : in the meeting summary on the seventh day, which is the week, we discussed the problems encountered in the implementation of the first function and the difficulties that may be encountered in the future, from which we learned and summarized our experience.We discussed the functions to be done next week, defined the division of labor among team members and determined the project manager and product manager for the next week.
 ==================================================================================================================================================
 Meeting record (The Sceond Week) :
+a):In this week's homework, I need to manage and update project data weekly Functions
+b):This week's project manager is JunjuePeng, a product manager is ShuyuLi.
 
+Conference name: Manage and update project data weekly Functions
+
+Content of the meeting:
+A)  On the first and second days, we discussed the problems in the last week, for example, photos could not be uploaded, data information could not be displayed, and communicated the functions to be completed this week.Make comments and Suggestions in meetings about what needs to be done in the functionality.
+
+B)  On the third day, we combined yesterday's Suggestions and ideas, and our group screened the ideas by voting, and finally established four small goals and divided the work accordingly.
+
+C)  On the fourth day, we tried these four small goals. We made a company profile and described the contents, but we still encountered some problems. For example, we did not know the definition of the size of the box, the distribution of the small boxes nested inside, and so on.
+
+D)  On the fifth day, we defined the data protection. For the users who did not register or log in, the data could not be added or changed. We also published the contact information at the bottom of the webpage.The data has been updated.
+
+E)  On the sixth day, we combined the problems we encountered on the fourth and fifth days. We discussed the problems we encountered through searching web pages and books, and optimized the code.
+
+F)  On the seventh day of the meeting, this week, we summarized the tasks for this week.Last week, we optimized the code.We made a div to introduce the company profile, and provided an email to provide Suggestions to users.In the process of doing these functions, we encountered some difficulties, such as data display error, user suggestion collection is not available, improper box definition and so on.We discussed these errors, consulted books and websites, and made targeted solutions to the problems.Finally, we discussed the difficulties we encountered during the week and summarized our experience.It also discusses the functions to be done next week, and the assignment of project manager and product manager.
