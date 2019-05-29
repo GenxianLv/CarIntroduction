@@ -10,7 +10,7 @@ using MilkyWay.Data;
 namespace MilkyWay.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190517112241_Benz")]
+    [Migration("20190529042157_Benz")]
     partial class Benz
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -197,6 +197,8 @@ namespace MilkyWay.Data.Migrations
                     b.Property<string>("Model");
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("PictureUrl");
 
                     b.Property<decimal>("Price");
 

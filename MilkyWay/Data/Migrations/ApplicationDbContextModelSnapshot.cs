@@ -196,6 +196,8 @@ namespace MilkyWay.Data.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<string>("PictureUrl");
+
                     b.Property<decimal>("Price");
 
                     b.Property<string>("Type");

@@ -174,6 +174,7 @@ namespace MilkyWay.Data.Migrations
                     Model = table.Column<string>(nullable: true),
                     Grade = table.Column<string>(nullable: true),
                     Price = table.Column<decimal>(nullable: false),
+                    PictureUrl = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

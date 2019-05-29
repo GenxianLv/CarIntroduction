@@ -14,6 +14,8 @@ namespace MilkyWay.Models
         public string Grade { get; set; }
         [Display(Name="Price/M")]
         public decimal Price { get; set; }
+        [Display(Name="Logo")]
+        public string PictureUrl { get; set; }
 
         public string Name { get; set;}
         public Carbrand Carbrand { get; set; }

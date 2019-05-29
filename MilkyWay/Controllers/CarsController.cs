@@ -21,6 +21,7 @@ namespace MilkyWay.Controllers
             _context = context;
         }
         [AllowAnonymous]
+
         // GET: Cars
         public async Task<IActionResult> Index()
         {
@@ -59,7 +60,7 @@ namespace MilkyWay.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CarId,Type,Model,Grade,Price,Name")] Car car)
+        public async Task<IActionResult> Create([Bind("CarId,Type,Model,Grade,Price,PictureUrl,Name")] Car car)
         {
             if (ModelState.IsValid)
             {
@@ -93,7 +94,7 @@ namespace MilkyWay.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CarId,Type,Model,Grade,Price,Name")] Car car)
+        public async Task<IActionResult> Edit(int id, [Bind("CarId,Type,Model,Grade,Price,PictureUrl,Name")] Car car)
         {
             if (id != car.CarId)
             {

@@ -25,6 +25,9 @@
                 @Html.DisplayNameFor(model => model.Price)
             </th>
             <th>
+               @Html.DisplayNameFor(model => model.PictureUrl)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Carbrand)
             </th>
             <th></th>
@@ -44,6 +47,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+               <img src= @Html.DisplayFor(modelItem => item.PictureUrl) width="50">
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Carbrand.Name)
