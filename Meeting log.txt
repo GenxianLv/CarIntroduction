@@ -17,7 +17,10 @@ D) : on the fifth day, we successfully uploaded the data and realized the first 
 E) : on the sixth day, after the basic completion of the first function, our team checked and optimized it, and will continue to improve the first function.
 
 F) : in the meeting summary on the seventh day, which is the week, we discussed the problems encountered in the implementation of the first function and the difficulties that may be encountered in the future, from which we learned and summarized our experience.We discussed the functions to be done next week, defined the division of labor among team members and determined the project manager and product manager for the next week.
+
+
 ==================================================================================================================================================
+
 Meeting record (The Sceond Week) :
 a):In this week's homework, I need to manage and update project data weekly Functions
 b):This week's project manager is JunjuePeng, a product manager is ShuyuLi.
@@ -36,3 +39,10 @@ D)  On the fifth day, we defined the data protection. For the users who did not 
 E)  On the sixth day, we combined the problems we encountered on the fourth and fifth days. We discussed the problems we encountered through searching web pages and books, and optimized the code.
 
 F)  On the seventh day of the meeting, this week, we summarized the tasks for this week.Last week, we optimized the code.We made a div to introduce the company profile, and provided an email to provide Suggestions to users.In the process of doing these functions, we encountered some difficulties, such as data display error, user suggestion collection is not available, improper box definition and so on.We discussed these errors, consulted books and websites, and made targeted solutions to the problems.Finally, we discussed the difficulties we encountered during the week and summarized our experience.It also discusses the functions to be done next week, and the assignment of project manager and product manager.
+=========================================================================================================================================================
+
+Meeting record (The Third Week) :
+a):In this week's homework, I need a hyperlink to view the car directly, and I want to get the data locally.
+b):This week's project manager is ShuyuLi, a product manager is ShuangzhiZhao.
+
+Conference name: Create a hyperlink and get the data locally

@@ -22,14 +22,15 @@ AS an Administrator, I need to check and manage the process.
 
 ===================================================================
 Sprit#3
-As a User, I need a hyperlink to view the car directly.
-1)
+As a user, I need a hyperlink to view the car directly, and I want to get the data locally.
 
-2)
+1) I need to lay out a box in the home page and define the image size.
 
-3)
+2) I need to add hyperlinks to the images.
 
-4)
+3) I need to create a web API that allows users to view data more quickly.
+
+4) I'll implement Cors based on the web API so that users can get their data locally.
 
 
 
