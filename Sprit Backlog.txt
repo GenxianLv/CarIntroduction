@@ -23,6 +23,13 @@ AS an Administrator, I need to check and manage the process.
 ===================================================================
 Sprit#3
 As a User, I need a hyperlink to view the car directly.
+1)
+
+2)
+
+3)
+
+4)
 
 
 
@@ -30,3 +37,11 @@ As a User, I need a hyperlink to view the car directly.
 ==============================================================
 Sprit#4
 As a user, I need to have a search key to search directly for the type of car I want.
+
+1)
+
+2)
+
+3)
+
+4)

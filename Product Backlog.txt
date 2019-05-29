@@ -31,11 +31,25 @@ Title:Create hyperlinks and images
 User: As a User
 Goal:As a User, I need a hyperlink to view the car directly.
 Why:
+1)
+
+2)
+
+3)
+
+4)
 ===========================================================
 The Last Week
 Title:Create a search key
 User: As a User
 Goal:As a user, I need to have a search key to search directly for the type of car I want.
 Why:
+1)
+
+2)
+
+3)
+
+4)
 
 ===========================================================
