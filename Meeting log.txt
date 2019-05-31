@@ -45,4 +45,26 @@ Meeting record (The Third Week) :
 a):In this week's homework, I need a hyperlink to view the car directly, and I want to get the data locally.
 b):This week's project manager is ShuyuLi, a product manager is ShuangzhiZhao.
 
-Conference name: Create a hyperlink and get the data locally
+Conference name: Create a hyperlink and get the data locally.
+
+Content of the meeting:
+A): on the first day, our group members discussed the problems they met last week and made A summary.Besides, the tasks to be completed this week were discussed, such as the definition of box size, distribution of boxes, and how to get data from the local area, etc., and a clear division of labor was made.
+
+B): on the second day and the third day, after the discussion on the first day, we decided to place a box in the homepage, and add photos and hyperlinks in the box, so that the team members could find photos and modify the size.
+
+C): on the fourth day, we optimized the code of the first two days. We added an API controller to upload data and modify data, and created Cors to get data locally.But in the meantime, we also encountered some problems, such as inconsistent photo size, unable to get data from the local, image can not pass hyperlinks and so on.
+
+D): on the fifth day, we discussed the problems we had encountered in the past few days, consulted books and online materials, and repaired and improved the code.
+
+E): on the sixth day, we summarized the problems encountered in the past three weeks, checked whether the problems had been fixed, and tested the webpage.
+
+F): on the seventh day of this week's meeting, we summarized the tasks for this week.An image hyperlink was created to allow users to enter the car page for viewing more quickly, and Web API and Cors were used to manage and obtain data.In the process of implementing these functions, we also encountered some difficulties.We discussed these issues, consulted books and websites, and addressed them.We also discussed the last week's tasks and assigned the project manager and product manager.
+
+
+
+
+
+
+========================================================================================================
+
+Meeting record (The Last Week) :

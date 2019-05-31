@@ -132,7 +132,7 @@ namespace MilkyWay.Data
                 PictureUrl="images/Benz.jpg"
 
     },
-                        new Car() {
+            new Car() {
                 Model="Maybach",
                 Type="limousine",
                 Grade="S",
@@ -172,7 +172,38 @@ namespace MilkyWay.Data
                 Price= 95.28m,
                  PictureUrl="images/Benz.jpg"
             },
-
+            new Car() {
+                Model="F12berlinetta",
+                Type="Supercar",
+                Grade="S",
+                Name=context.Carbrands.Find("Ferrari").Name,
+                Price=530.8m,
+                 PictureUrl="images/F.jpg"
+            },
+            new Car() {
+                Model="Aventador",
+                Type="Supercar",
+                Grade="S",
+                Name=context.Carbrands.Find("Lamborghini").Name,
+                Price= 613.70m,
+                 PictureUrl="images/L.jpg"
+            },
+            new Car() {
+                Model="918",
+                Type="Supercar",
+                Grade="S",
+                Name=context.Carbrands.Find("Porsche").Name,
+                Price= 1338.8m,
+                 PictureUrl="images/P.jpg"
+            },
+            new Car() {
+                Model="Continental",
+                Type="Supercar",
+                Grade="S",
+                Name=context.Carbrands.Find("Bentley").Name,
+                Price= 288.00m,
+                 PictureUrl="images/B.jpg"
+            },
 
         };
 
