@@ -143,6 +143,21 @@ namespace MilkyWay.Controllers
 
             return View(car);
         }
+        public async Task<IActionResult> Search(string id)
+        {
+            var cars = from q in _context.Cars
+                       select q;
+            if (!String.IsNullOrEmpty(id)) {
+                cars = cars.Where(s => s.Type.Contains(id));
+                    }
+
+            return View( await cars.ToListAsync());
+        }
+        [HttpPost]
+        public string Index(string id, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + id;
+        }
 
         // POST: Cars/Delete/5
         [HttpPost, ActionName("Delete")]

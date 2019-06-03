@@ -1,9 +1,17 @@
-﻿@{
+﻿-@{
     ViewData["Title"] = "Auto Show";
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>You can see a display of cars on this page</p>
+
+<form asp-controller="Cars" asp-action="Index" method="get">
+    <p>
+        Title: <input type="text" Name="id" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -52,3 +60,4 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+

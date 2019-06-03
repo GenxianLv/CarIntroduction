@@ -11,43 +11,89 @@
     <environment exclude="Development">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
-              crossorigin="anonymous"
-              integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" />
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+
     </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
-    
+
+
     <style type="text/css">
+        .menu {
+            width: 800px;
+            height:100px;
+/*设置元素水平居中*/
 
-        a:link, a:visited {
+            margin: 50px auto 0;
+/*去除内联元素间隙*/
+
+            font-size: 0;
+/*去掉ul自带的.格式*/
+
+            list-style: none;
+            padding: 0;
+
+
+        }
+
+        .menu li{
+/*将元素转换为行内块元素*/
+
+            display:inline-block;
+            width:100px;
+            height:50px;
+            border:1px solid gold;
+            font-size:16px;
+/*将边框合并*/
+
+            margin-right:60px;
+            text-align:center;
+            line-height:35px;
+
+        }
+        .menu a{
+ 
+            color:pink;
+            font-family:STCaiyun;
+/*去掉a元素的下划线*/
+
             text-decoration: none;
-            color: #FC0;
-            margin: 10px;
+        }
+/*鼠标位于元素位置时改变元素样式*/
+
+        .menu li:hover{
+            background-color: orange;
         }
 
-        a:hover {
-            color: #0F0;
-            text-decoration: underline;
+        .menu a:hover{
+            color:#fff;
         }
+        .htt{
+           width:800px;
+             font-size:50px;
+            border:10px solid gold;
+            text-align:center;
+            margin: 5px auto 0;
+            font-family:STCaiyun;
+            border-color:blue;
+            letter-spacing:10px; 
+           
 
-        a:active {
-            color: #F00;
         }
     </style>
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+<body style="background-image: url('/images/cp.png'); background-size: cover;">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MilkyWay</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
+                <div class="htt">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MilkyWay</a>
+                </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <ul class="menu">
+
+                        <li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
@@ -56,11 +102,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Cars" asp-action="Index">Cars</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                        </li>
                     </ul>
-                </div>
+
             </div>
         </nav>
-    </header>
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
