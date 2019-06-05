@@ -143,7 +143,7 @@ namespace MilkyWay.Controllers
 
             return View(car);
         }
-        public async Task<IActionResult> Search(string id)
+      public async Task<IActionResult> Search(string id)
         {
             var cars = from q in _context.Cars
                        select q;
@@ -152,7 +152,7 @@ namespace MilkyWay.Controllers
                     }
 
             return View( await cars.ToListAsync());
-        }
+        } 
         [HttpPost]
         public string Index(string id, bool notUsed)
         {
