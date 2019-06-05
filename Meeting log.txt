@@ -68,3 +68,24 @@ F): on the seventh day of this week's meeting, we summarized the tasks for this 
 ========================================================================================================
 
 Meeting record (The Last Week) :
+
+a): what we need to do this week is to create a search key and define the search data, and to beautify the web.
+
+b): This week's project manager is ShuangzhiZhao, a product manager is GenxianLv
+
+The Conference name: Create a search key and define the search data, and to beautify the web.
+
+
+
+
+A) In the first day of the meeting, we summarized the tasks of the first three weeks and combined them to continue to optimize the project.And discuss the task in week 4 .
+
+B) In the second day of the meeting, we collected everyone's opinions and decided to do four small functions: the display page of the car, create a search key, define search data in the controller, and finally beautify the whole website.And there's a division of labor.
+
+C) In the third and fourth days, we went to complete the task of the first small function "car display page", when we did this function, we collected some car pictures, and then cut the size of the pictures.Finally, we added automatic rotation of pictures.
+
+D) On the fifth day, we started to do the second little function "create a search key", and we decided to add it in the Cars page.In this process, we encountered some problems, such as the definition of search key size, search key blank, unable to search data, etc., to record the problem.
+
+E) On the sixth day, we will discuss the problems we encountered yesterday and begin to do the remaining functions of "defining search data" and "beautifying the whole website".In the process, we also encountered some problems, such as wrong definition, wrong sorting of boxes in the navigation bar, incomplete background coverage of the homepage, etc. We searched for information through web pages and books and solved the problems.
+
+F) On the 7th day of this week's meeting, we summarized the tasks for this week.Combined with the task of the previous three weeks, we will optimize the code of this week, optimize the code of the whole project, and check whether the code will not work.Finally, we also summarized the problems encountered in the process of carrying out the task in these four weeks, and discussed them. We summarized the experience, and we were able to complete the task efficiently when carrying out the task in the future.
