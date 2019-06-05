@@ -1,0 +1,28 @@
+
+
+
+#bkDiv {
+    background: linear-gradient(0deg, transparent 0%, #31009c 10%, #000084 25%,#009cff 37%,#00bd00 50%,#fff700 62%,#ff6331 75%,#de0000 90%,transparent 100%);
+    background-color: #333;
+    background-size: 10px 125px;
+    background-repeat: repeat;
+    height: 100px;
+    width: 620px;
+
+    background-position: center -65px;
+    transition: background-position 1s;
+}
+ 
+#bkDiv:hover
+{
+  background-position:center 0px;
+}
+
+#theText {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 65px;
+    stroke: #000;
+    stroke-width: 3px;
+    fill-opacity: 0.5;
+
+}          

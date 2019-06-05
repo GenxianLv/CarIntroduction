@@ -42,7 +42,7 @@ Why:
 The Last Week
 Title:Create a search key
 User: As a User
-Goal:As a user, I need to have a search key to search directly for the type of car I want.
+Goal:As a user, I need a search key to search directly for the type of car I want and beautify the home page.
 Why:
 1) I need to make a car display.
 

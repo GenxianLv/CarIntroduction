@@ -4,20 +4,33 @@
 
 
 <link href="~/css/hx.css" rel="stylesheet" />
+<link href="~/css/cs.css" rel="stylesheet" type="text/css" />
 
+<style>
+ .center
+{
 
-<div class="text-center">
-    <h1 class="display-4">
-        <strong class="blue">M</strong>
-        <strong class="red">i</strong>
-        <strong id="orange">l</strong>
-        <strong class="blue">k</strong>
-        <strong id="green">y</strong>
-        <strong class="red">W</strong>
-        <strong id="orange">a</strong>
-        <strong id="orange">y</strong>
-    </h1>
+            width: 650px;
+            text-align: center;
+            margin: 5px auto 0;
+
+}
+    </style>
+<div class="center">
+    <div id="bkDiv">
+        <svg width="100%" height="100%">
+            <defs>
+                <mask id="theMask">
+                    <rect width="100%" height="100%" fill="#fff" />
+                    <text x="5" y="65" id="theText" fill="#000">Welcome to Milky Way</text>
+                </mask>
+            </defs>
+            <rect width="100%" height="100%" mask="url(#theMask)" fill="rgb(206,152,84)" />
+        </svg>
+    </div>
 </div>
+
+
 
 
 
