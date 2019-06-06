@@ -22,7 +22,7 @@ namespace MilkyWay.Controllers.API
         }
 
         // GET api
-        [HttpGet("{id}/players")]
+        [HttpGet("{id}/cars")]
         public async Task<IActionResult> GetCars(string id)
         {
             var carbrands = await _context.Carbrands
